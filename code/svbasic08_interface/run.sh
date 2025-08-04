@@ -1,0 +1,16 @@
+xrun -access +rwc -input ../shm.tcl ex1_interface_intro.sv
+#xrun -access +rwc -input ../shm.tcl ex2_interface_example.sv
+#xrun -access +rwc -input ../shm.tcl ex3_interface_connecting.sv
+#xrun -access +rwc -input ../shm.tcl ex4_interface_port.sv
+#xrun -access +rwc -input ../shm.tcl ex5_interface_instance_identifier.sv
+#xrun -access +rwc -input ../shm.tcl ex6_interface_define_port.sv
+#xrun -access +rwc -input ../shm.tcl ex7_interface_port_application.sv
+#xrun -access +rwc -input ../shm.tcl ex8_interface_port_parameter.sv
+#xrun -access +rwc -input ../shm.tcl ex9_interface_modport.sv
+#xrun -access +rwc -input ../shm.tcl ex9_1_interface_modport_instance.sv
+#xrun -access +rwc -input ../shm.tcl ex9_2_interface_modport_binding.sv
+#xrun -access +rwc -input ../shm.tcl ex10_interface_method.sv
+#xrun -access +rwc -input ../shm.tcl ex10_1_interface_methodtask.sv
+#xrun -access +rwc -input ../shm.tcl ex10_2_interface_methodtaskmodport.sv
+#xrun -access +rwc -input ../shm.tcl ex11_interface_generic_interface.sv
+#xrun -access +rwc -input ../shm.tcl ex12_interface_quiz.sv

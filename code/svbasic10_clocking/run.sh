@@ -1,0 +1,10 @@
+#xrun -access +rwc -input ../shm.tcl ex1_clocking_declaration.sv
+#xrun -access +rwc -input ../shm.tcl ex2_clocking_outputdrive.sv
+#xrun -access +rwc -input ../shm.tcl ex3_clocking_inputsample.sv
+#xrun -access +rwc -input ../shm.tcl ex4_clocking_skew.sv
+#xrun -access +rwc -input ../shm.tcl ex5_clocking_example_skew.sv
+#xrun -access +rwc -input ../shm.tcl ex6_clocking_example_outputskew_sync.sv
+#xrun -access +rwc -input ../shm.tcl ex7_clocking_multiple_default.sv
+#xrun -access +rwc -input ../shm.tcl ex8_clocking_cycledelay.sv
+#xrun -access +rwc -input ../shm.tcl ex9_clocking_hierachical_signal.sv
+#xrun -access +rwc -input ../shm.tcl ex10_clocking_quiz.sv

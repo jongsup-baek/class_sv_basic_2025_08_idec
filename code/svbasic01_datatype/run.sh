@@ -1,0 +1,10 @@
+xrun -access +rwc -input ../shm.tcl ex1_datatype_logic.sv
+#xrun -access +rwc -input ../shm.tcl ex2_datatype_bitlogic.sv
+#xrun -access +rwc -input ../shm.tcl ex3_datatype_logicrelaxation.sv
+#xrun -access +rwc -input ../shm.tcl ex4_datatype_verilogexam.sv
+#xrun -access +rwc -input ../shm.tcl ex4_1_datatype_relaxedexam.sv
+#xrun -access +rwc -input ../shm.tcl ex4_2_datatype_variableassign.sv
+#xrun -access +rwc -input ../shm.tcl ex5_datatype_alwayscomb.sv
+#xrun -access +rwc -input ../shm.tcl ex6_datatype_unsized_literals.sv
+#xrun -access +rwc -input ../shm.tcl ex7_datatype_timeliterals.sv
+#xrun -access +rwc -input ../shm.tcl ex8_datatype_timeunit.sv

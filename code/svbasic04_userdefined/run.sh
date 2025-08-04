@@ -1,0 +1,14 @@
+#xrun -access +rwc -input ../shm.tcl ex1_userdefined_intro.sv
+#xrun -access +rwc -input ../shm.tcl ex2_userdefined_examples.sv
+#xrun -access +rwc -input ../shm.tcl ex3_userdefined_enum_definition.sv
+#xrun -access +rwc -input ../shm.tcl ex4_userdefined_enum_values.sv
+#xrun -access +rwc -input ../shm.tcl ex5_userdefined_enum_encoding.sv
+#xrun -access +rwc -input ../shm.tcl ex6_userdefined_enum_name_sequence.sv
+#xrun -access +rwc -input ../shm.tcl ex7_userdefined_enum_basetype.sv
+#xrun -access +rwc -input ../shm.tcl ex8_userdefined_enum_init.sv
+#xrun -access +rwc -input ../shm.tcl ex9_userdefined_enum_access.sv
+#xrun -access +rwc -input ../shm.tcl ex10_userdefined_struct_intro.sv
+#xrun -access +rwc -input ../shm.tcl ex11_userdefined_struct_assignment.sv
+#xrun -access +rwc -input ../shm.tcl ex12_userdefined_struct_packed.sv
+#xrun -access +rwc -input ../shm.tcl ex13_userdefined_newtype_declaration_region.sv
+#xrun -access +rwc -input ../shm.tcl ex14_userdefined_quiz.sv

@@ -1,0 +1,13 @@
+xrun -access +rwc -input ../shm.tcl ex1_taskfunc_intro.sv
+#xrun -access +rwc -input ../shm.tcl ex2_taskfunc_automatic.sv
+#xrun -access +rwc -input ../shm.tcl ex3_taskfunc_beginend.sv
+#xrun -access +rwc -input ../shm.tcl ex4_taskfunc_void_function.sv
+#xrun -access +rwc -input ../shm.tcl ex5_taskfunc_functionoutput.sv
+#xrun -access +rwc -input ../shm.tcl ex6_taskfunc_default_argu.sv
+#xrun -access +rwc -input ../shm.tcl ex6_1_taskfunc_binding_by_name.sv
+#xrun -access +rwc -input ../shm.tcl ex6_2_taskfunc_all_default.sv
+#xrun -access +rwc -input ../shm.tcl ex7_taskfunc_function_return.sv
+#xrun -access +rwc -input ../shm.tcl ex8_taskfunc_passing_by_value.sv
+#xrun -access +rwc -input ../shm.tcl ex8_1_taskfunc_access_by_sideeffect.sv
+#xrun -access +rwc -input ../shm.tcl ex8_2_taskfunc_pass_by_ref.sv
+#xrun -access +rwc -input ../shm.tcl ex8_3_taskfunc_pass_by_constref.sv

@@ -1,0 +1,10 @@
+#xrun -access +rwc -input ../shm.tcl ex1_connect_verilog_port.sv
+#xrun -access +rwc -input ../shm.tcl ex2_connect_newtype.sv
+#xrun -access +rwc -input ../shm.tcl ex3_connect_cus.sv
+#xrun -access +rwc -input ../shm.tcl ex4_connect_package.sv
+#xrun -access +rwc -input ../shm.tcl ex5_connect_explicit_import.sv
+#xrun -access +rwc -input ../shm.tcl ex5_1_connect_wildcard_import.sv
+#xrun -access +rwc -input ../shm.tcl ex6_connect_import_export.sv
+#xrun -access +rwc -input ../shm.tcl ex7_connect_package_ambiguity.sv
+#xrun -access +rwc -input ../shm.tcl ex8_connect_package_header.sv
+#xrun -access +rwc -input ../shm.tcl ex9_connect_quiz.sv

@@ -1,0 +1,12 @@
+#xrun -access +rwc -input ../shm.tcl ex1_dvfeatures_intro.sv
+xrun -access +rwc -input ../shm.tcl ex2_dvfeatures_string_method.sv
+#xrun -access +rwc -input ../shm.tcl ex3_dvfeatures_immediate_assertion.sv
+#xrun -access +rwc -input ../shm.tcl ex4_dvfeatures_action_block.sv
+#xrun -access +rwc -input ../shm.tcl ex5_dvfeatures_assertion_severity.sv
+#xrun -access +rwc -input ../shm.tcl ex6_dvfeatures_assertion_example.sv
+#xrun -access +rwc -input ../shm.tcl ex7_dvfeatures_assertion_comparison.sv
+#xrun -access +rwc -input ../shm.tcl ex8_dvfeatures_forkjoin_intro.sv
+#xrun -access +rwc -input ../shm.tcl ex9_dvfeatures_forkjoin_disablewait.sv
+#xrun -access +rwc -input ../shm.tcl ex10_dvfeatures_forkjoin_disable_ex1.sv
+#xrun -access +rwc -input ../shm.tcl ex11_dvfeatures_forkjoin_disable_ex2.sv
+#xrun -access +rwc -input ../shm.tcl ex12_dvfeatures_forkjoin_disable_ex3.sv
