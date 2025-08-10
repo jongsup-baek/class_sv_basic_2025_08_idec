@@ -20,6 +20,10 @@ module tb;
          genpar();
       endfunction
 
+      function void genpar();
+         parity = ^{addr,payload};
+      endfunction
+
       function void incdata();
          addr= addr+1;
          payload= payload+1;
@@ -27,7 +31,7 @@ module tb;
       endfunction
 
       function logic [13:0]   getframe();
-         return({addr,payload,parity});
+         return({parity,addr,payload});
       endfunction
 
    endclass

@@ -1,7 +1,7 @@
 // ex14_class_inheritance_example.sv
 //
 
-`define PROBLEM
+//`define PROBLEM
 
 module tb;
 
@@ -40,6 +40,7 @@ module tb;
    badtagframe one = new();
    `endif
 
+   frame one = new(3,16);
    initial begin
       one.addr= 0;
       $display("addr %d",one.addr);

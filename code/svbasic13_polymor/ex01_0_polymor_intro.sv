@@ -1,8 +1,8 @@
 // ex1_polymor_intro.sv
 //
 
-`define PROBLEM
-//`define SOLUTION
+//`define PROBLEM
+`define SOLUTION
 
 module tb;
 
@@ -45,7 +45,7 @@ module tb;
       `endif
 
       `ifdef SOLUTION
-      // Comment #8 : Only parent class members are accessible from the handle
+      // Comment #8 : Child class members are accessible from the handle
       t1.iam();               // tagframe
       $display("%d",t1.tag);  // 0
       `endif

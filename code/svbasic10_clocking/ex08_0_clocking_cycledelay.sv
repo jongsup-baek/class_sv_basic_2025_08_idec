@@ -4,17 +4,17 @@ module tb;
    bit clk=0; initial forever #50 clk= ~clk;
 
    bit reset, enab;
-   bit [7:0] data, rdata, dreg=8'h01;
+   bit [7:0] dout, data, rdata, dreg=8'h01;
 
    // Comment #1 : default clocking cb1
-   default clocking cb1 @(posedge clk1);
+   default clocking cb1 @(posedge clk);
       input #2 dout;
       output #3 reset, data;
    endclocking
 
    // Comment #2 : nedgedge trigger
    clocking cb4 @(negedge clk);
-      output #3 ena, rdata;
+      output #3 enab, rdata;
    endclocking
 
    initial begin
@@ -36,6 +36,8 @@ module tb;
       //    Drive rdata  with current dreg
       //    value after 3 cb4 cycles
       cb4.rdata <= ##3 dreg;
+      ##10;
+      $finish;
    end
 
 endmodule

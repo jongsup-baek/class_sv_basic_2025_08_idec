@@ -9,6 +9,7 @@ module tb;
          $display("[frame] default frame");
       endfunction
    endclass
+   
    // Comment #2 : Sub Class
    class tagframe extends frame;
       int tag = 7;
@@ -21,11 +22,9 @@ module tb;
       bit has_error = 1;
       function void send();
          if (has_error)
-            $display("[errframe] tag = %0d, 
-                    ERROR detected!", tag);
+            $display("[errframe] tag = %0d, ERROR detected!", tag);
          else
-            $display("[errframe] tag = %0d, 
-                    No error", tag);
+            $display("[errframe] tag = %0d, No error", tag);
       endfunction
    endclass
 
