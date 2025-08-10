@@ -9,10 +9,10 @@ module tb1;
    initial begin
       parr[0]= 6;
       parr[1]= 7;
-      parr[8]= 8;
-      parr[9]= 9;
-      $display("%h",parr);          // xxxx0706
-      $display("%h",parr[0]);       // 6
+      parr[2]= 8;
+      parr[3]= 9;
+      $display("%h",parr);          // 09080706
+      $display("%h",parr[0]);       // 06
       $display("%h",parr[0][5]);    // 0
    end
 
@@ -25,10 +25,10 @@ module tb2;
    mytype [6:0] pnum;
    initial begin
       pnum= {D,D,C,C,B,B,A};
-      $display("%h    ",pnum);                     // 3e49, DDCCBBAA
+      $display("%h    ",pnum);                     // 3e94, 11_1110_1001_0100
       $display("%h, %s",pnum[2], pnum[2].name());  // 1, B
       $display("%h    ",pnum[4:3]);                // a, CC
-      $display("%h    ",pnum[5][1]);               // 1, n/a
+      $display("%h    ",pnum[5][1]);               // 1, D=[11]
     end
 
 endmodule

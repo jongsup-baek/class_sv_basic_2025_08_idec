@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# remove Xcelium related files uder the current directory
+find . -type d -name "INCA_libs" -exec rm -rf {} +
+find . -type d -name "waves.shm" -exec rm -rf {} +
+find . -type d -name "xcelium.d" -exec rm -rf {} +
+find . -type d -name "xcelium.shm" -exec rm -rf {} +
+find . -type d -name ".simvision" -exec rm -rf {} +
+find . -type f -name "xrun.log" -delete
+find . -type f -name "xrun.history" -delete
+find . -type f -name "*.shm" -delete
+find . -type f -name "*.key" -delete
+find . -type f -name "*.simvision*" -delete 
+find . -type f -name "simvision*.diag" -delete 
+find . -type f -name "*.dsn" -delete
+find . -type f -name "*.trn" -delete
+find . -type f -name "*.vcd" -delete
+
+echo "Xcelium Related simulation files are cleaned"

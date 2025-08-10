@@ -25,8 +25,26 @@ module cpucore( ifa bus );
 
    initial begin
       addr=8'hAA;
-      data=8'hFF;
+      data=8'hBB;
+      #10
       bus.read(addr,data);
    end
 
+endmodule
+
+module top;
+   logic clk;
+   ifa bus( clk );
+
+   cpucore core( bus );
+
+   initial begin
+      clk=0;
+      forever #5 clk=~clk;
+   end
+
+   initial begin
+      #100;
+      $finish;
+   end
 endmodule
