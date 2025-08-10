@@ -35,9 +35,9 @@ module tb;
       //    keyed assignment
 	   intc= '{default:100}; 
 
-      $display("%d",intc[15][0]); // 0
-      $display("%d",intc[15][1]); // 0
-      $display("%d",intc[15][2]); // 0
+      $display("%d",intc[15][0]); // 100
+      $display("%d",intc[15][1]); // 100
+      $display("%d",intc[15][2]); // 100
 
       // Comment #2 : 
       //    both 3x2 arrays of int
